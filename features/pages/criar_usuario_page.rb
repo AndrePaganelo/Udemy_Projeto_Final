@@ -1,7 +1,7 @@
 class User < SitePrism::Page
     set_url 'users/new'
     element :nome, '#user_name'
-    element :sobrenome, '#user_latsname'
+    element :sobrenome, '#user_lastname'
     element :email, '#user_email'
     element :endereco, '#user_address'
     element :universidade, '#user_university'
@@ -13,8 +13,8 @@ class User < SitePrism::Page
 
     def preencher_usuario
         nome.set 'Andre'
-        sobrenome.set 'Pagas'
-        email.set 'andre@uwd.com'
+        sobrenome.set 'Pagass'
+        email.set 'andrse@uwd.com'
         endereco.set 'Rua America Central'
         universidade.set 'Meto'
         profissao.set 'QA'
